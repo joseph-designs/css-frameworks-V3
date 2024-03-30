@@ -4,7 +4,7 @@
   "description": "Basic HTML and CSS setup for simple web design",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
   },
   "keywords": [],
   "author": "",
